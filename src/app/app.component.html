@@ -1,0 +1,7 @@
+
+<div class="panel panel-heading" id="bar">TO-DO-LIST</div>
+<div class="container">
+<app-input (sendDo)='storeData($event)'></app-input>
+<hr>
+<app-list [lists]='list'></app-list>
+</div>

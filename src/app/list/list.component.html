@@ -1,0 +1,5 @@
+<div *ngFor="let i of lists; let j=index" class="panel panel-primary">
+  <div class="panel-heading">{{i.title}}</div>
+   <div class="panel-body">{{i.content}}</div>
+   <div class="panel-footer"><button (click)="delete(j)" class="btn btn-danger btn-block">Delete</button></div>
+</div>
